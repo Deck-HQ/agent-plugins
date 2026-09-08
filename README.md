@@ -30,11 +30,15 @@ You get the `deck` MCP server (58 tools) and six skills: `/deck` (orient and rou
 
 Point Codex at `plugins/deck/.codex-plugin/plugin.json`.
 
+## Claude.ai and Cowork
+
+Remote connectors there authenticate with OAuth, not an API key; Deck's OAuth login is on the way. Until
+then the plugin works in Claude Code, Cursor and Codex.
+
 ## Point at a different Deck
 
-Claude Code asks for the server URL when you enable the plugin (default usedeck.ai; staging is
-`https://dev.usedeck.ai/api/v1/mcp`). Change it later with
-`claude plugin install deck@deck --config server_url=... --config api_key=...`.
+The server is `https://usedeck.ai/api/v1/mcp`. For staging or a local backend, add the server yourself:
+`claude mcp add --transport http deck-staging https://dev.usedeck.ai/api/v1/mcp --header "Authorization: Bearer dk_..."`.
 
 ## Layout
 
