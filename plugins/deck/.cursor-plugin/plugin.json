@@ -1,7 +1,7 @@
 {
   "name": "deck",
   "displayName": "Deck",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Build and edit Deck presentations: artifacts on an infinite canvas that Cursor reads and writes, live.",
   "author": {
     "name": "Deck",
