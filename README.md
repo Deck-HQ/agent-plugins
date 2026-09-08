@@ -6,12 +6,8 @@ through Deck's hosted MCP server. Writes land on your open canvas live.
 
 ## Your API key
 
-Every harness below needs your Deck API key in the `DECK_API_KEY` environment variable. Get it in
-Deck under **Account, API key**, then:
-
-```sh
-export DECK_API_KEY=dk_...
-```
+Get it in Deck under **Account, API key**. Claude Code asks for it when you enable the plugin and keeps
+it in your keychain; Cursor and Codex read it from the `DECK_API_KEY` environment variable.
 
 ## Claude Code
 
@@ -36,7 +32,9 @@ Point Codex at `plugins/deck/.codex-plugin/plugin.json`.
 
 ## Point at a different Deck
 
-`DECK_MCP_URL` overrides the server URL for Claude Code (staging: `https://dev.usedeck.ai/api/v1/mcp`).
+Claude Code asks for the server URL when you enable the plugin (default usedeck.ai; staging is
+`https://dev.usedeck.ai/api/v1/mcp`). Change it later with
+`claude plugin install deck@deck --config server_url=... --config api_key=...`.
 
 ## Layout
 

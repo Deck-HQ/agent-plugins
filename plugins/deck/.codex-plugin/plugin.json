@@ -1,6 +1,6 @@
 {
   "name": "deck",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Build and edit Deck presentations: artifacts on an infinite canvas that Codex reads and writes, live.",
   "author": {
     "name": "Deck",

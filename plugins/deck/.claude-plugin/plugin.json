@@ -1,6 +1,6 @@
 {
   "name": "deck",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Build and edit Deck presentations: story, artifacts, edits, pictures and brand kits, through six skills on Deck's hosted MCP server.",
   "author": {
     "name": "Deck",
@@ -18,5 +18,20 @@
     "html",
     "brand-kit",
     "mcp"
-  ]
+  ],
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "Deck API key",
+      "description": "From Deck: Account, API key. Sent as the Authorization header to Deck's MCP server.",
+      "sensitive": true,
+      "required": true
+    },
+    "server_url": {
+      "type": "string",
+      "title": "Deck server",
+      "description": "Deck's MCP endpoint. Leave the default for usedeck.ai; staging is https://dev.usedeck.ai/api/v1/mcp.",
+      "default": "https://usedeck.ai/api/v1/mcp"
+    }
+  }
 }
