@@ -1,0 +1,14 @@
+{
+  "name": "deck",
+  "displayName": "Deck",
+  "version": "0.1.0",
+  "description": "Build and edit Deck presentations: artifacts on an infinite canvas that Cursor reads and writes, live.",
+  "author": {
+    "name": "Deck",
+    "email": "team@usedeck.ai"
+  },
+  "license": "MIT",
+  "keywords": ["cursor", "plugin", "mcp", "deck", "presentations"],
+  "logo": "./assets/logo.svg",
+  "mcpServers": "./mcp.cursor.json"
+}

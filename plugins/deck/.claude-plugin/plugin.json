@@ -1,0 +1,14 @@
+{
+  "name": "deck",
+  "version": "0.1.0",
+  "description": "Build and edit Deck presentations: artifacts on an infinite canvas that Claude reads and writes, live.",
+  "author": {
+    "name": "Deck",
+    "email": "team@usedeck.ai"
+  },
+  "homepage": "https://usedeck.ai",
+  "repository": "https://github.com/Deck-HQ/agent-plugins",
+  "license": "MIT",
+  "keywords": ["deck", "presentations", "storytelling", "artifacts", "canvas", "html", "brand-kit", "mcp"],
+  "mcpServers": "./mcp.claude.json"
+}
