@@ -1,6 +1,6 @@
 {
   "name": "deck",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Build and edit Deck presentations: artifacts on an infinite canvas that Codex reads and writes, live.",
   "author": {
     "name": "Deck",
@@ -10,6 +10,13 @@
   "homepage": "https://usedeck.ai",
   "repository": "https://github.com/Deck-HQ/agent-plugins.git",
   "license": "MIT",
-  "keywords": ["deck", "presentations", "storytelling", "artifacts", "canvas", "mcp"],
+  "keywords": [
+    "deck",
+    "presentations",
+    "storytelling",
+    "artifacts",
+    "canvas",
+    "mcp"
+  ],
   "mcpServers": "./mcp.codex.json"
 }

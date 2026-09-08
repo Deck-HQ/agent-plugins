@@ -20,7 +20,7 @@ export DECK_API_KEY=dk_...
 /plugin install deck@deck
 ```
 
-You get the `deck` MCP server (58 tools) and the `/deck` skill.
+You get the `deck` MCP server (58 tools) and six skills: `/deck` (orient and route), `/deck-story`, `/deck-artifact`, `/deck-edit`, `/deck-images`, `/deck-brand-kit`.
 
 ## Cursor
 

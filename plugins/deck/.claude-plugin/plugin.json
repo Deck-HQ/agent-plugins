@@ -1,7 +1,7 @@
 {
   "name": "deck",
-  "version": "0.1.0",
-  "description": "Build and edit Deck presentations: artifacts on an infinite canvas that Claude reads and writes, live.",
+  "version": "0.2.0",
+  "description": "Build and edit Deck presentations: story, artifacts, edits, pictures and brand kits, through six skills on Deck's hosted MCP server.",
   "author": {
     "name": "Deck",
     "email": "team@usedeck.ai"
