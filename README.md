@@ -34,12 +34,28 @@ MCP server (58 tools) and six skills: `/deck` (orient and route), `/deck-story`,
 
 ## Cursor
 
-Add the marketplace from this repo, then `/add-plugin deck`. Cursor runs the same OAuth sign-in
-when it first connects.
+Until Deck is listed on the Cursor Marketplace, install from this repo:
+
+1. cursor.com/dashboard, **Plugins**, **Add Marketplace**, **Import from Repo**: `Deck-HQ/agent-plugins`.
+2. In Cursor, **Customize** in the sidebar, find **deck**, **Install**, user scope.
+3. Cursor Settings, **MCP**, `deck`, **Login**. Deck opens, press Allow.
+
+No dashboard access? Add the server and the skills by hand: put
+`{"mcpServers":{"deck":{"url":"https://dev.usedeck.ai/api/v1/mcp"}}}` in `~/.cursor/mcp.json` and copy
+`plugins/deck/skills/*` into `~/.cursor/skills/`. Same result: the `deck` server plus `/deck`,
+`/deck-story`, `/deck-artifact`, `/deck-edit`, `/deck-images`, `/deck-brand-kit`.
 
 ## Codex
 
-Point Codex at `plugins/deck/.codex-plugin/plugin.json`, then `codex mcp login deck`.
+```sh
+codex plugin marketplace add Deck-HQ/agent-plugins
+codex plugin add deck@deck
+codex mcp login deck
+```
+
+The last line opens Deck in your browser, press Allow. In Codex, `$deck` (or `/skills`) starts the
+skill; the Codex app opens the deck in its browser beside the chat while it works. Later:
+`codex plugin marketplace upgrade` picks up new versions.
 
 ## Point at a different Deck
 
