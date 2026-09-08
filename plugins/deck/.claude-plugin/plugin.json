@@ -9,6 +9,14 @@
   "homepage": "https://usedeck.ai",
   "repository": "https://github.com/Deck-HQ/agent-plugins",
   "license": "MIT",
-  "keywords": ["deck", "presentations", "storytelling", "artifacts", "canvas", "html", "brand-kit", "mcp"],
-  "mcpServers": "./mcp.claude.json"
+  "keywords": [
+    "deck",
+    "presentations",
+    "storytelling",
+    "artifacts",
+    "canvas",
+    "html",
+    "brand-kit",
+    "mcp"
+  ]
 }
