@@ -5,7 +5,7 @@
     "email": "team@usedeck.ai"
   },
   "metadata": {
-    "description": "Deck is the storytelling workspace: an infinite canvas of artifacts your agent can read and write, live.",
+    "description": "Deck is the storytelling workspace: decks of artifacts your agent reads and writes, live.",
     "version": "0.2.0"
   },
   "plugins": [

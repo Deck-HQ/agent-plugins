@@ -1,7 +1,7 @@
 {
   "name": "deck",
-  "version": "0.5.1",
-  "description": "Build and edit Deck presentations: artifacts on an infinite canvas that Codex reads and writes, live.",
+  "version": "0.6.0",
+  "description": "Build and edit Deck presentations: story, artifacts, edits, pictures and brand kits, through six skills on Deck's hosted MCP server.",
   "author": {
     "name": "Deck",
     "email": "team@usedeck.ai",
@@ -18,5 +18,26 @@
     "canvas",
     "mcp"
   ],
-  "mcpServers": "./mcp.codex.json"
+  "mcpServers": "./mcp.codex.json",
+  "skills": "./skills",
+  "interface": {
+    "displayName": "Deck",
+    "shortDescription": "Build and edit Deck presentations from Codex, live.",
+    "longDescription": "Deck is a storytelling workspace: a deck is made of artifacts, complete HTML documents on a 1920x1080 frame. With this plugin Codex plans the story, writes and edits artifacts, places pictures and applies your brand kit through Deck's hosted MCP server, and the deck fills in live in your browser while it works.",
+    "developerName": "Deck",
+    "category": "Design",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://usedeck.ai",
+    "brandColor": "#111111",
+    "composerIcon": "./assets/logo.svg",
+    "logo": "./assets/logo.svg",
+    "defaultPrompt": [
+      "Make me a five-artifact deck about our Q3 results",
+      "Put this picture in the middle of artifact 2",
+      "Read acme.com into a brand kit and apply it to this deck"
+    ]
+  }
 }

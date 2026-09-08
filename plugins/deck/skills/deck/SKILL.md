@@ -32,9 +32,10 @@ Every deck result carries `deckUrl`, the workspace's full address. The user shou
 fill in while you work, so:
 
 1. The moment you know which deck you are on (after `create_deck`, `get_deck` or `list_decks`), and
-   before the first write, open `deckUrl` in the host's browser pane when it has one: Claude Code
-   desktop (`navigate` or `preview_start` with the url), Cowork (its browser). One tab per deck for
-   the whole session; navigate that tab, never open a second one for the same deck.
+   before the first write, open `deckUrl` in the host's browser when it has one: Claude Code desktop
+   (`navigate` or `preview_start` with the url), Cowork (its browser), the Codex app (its browser),
+   Cursor (the Browser tool). One tab per deck for the whole session; navigate that tab, never open
+   a second one for the same deck.
 2. Read the page. If it shows Deck's sign-in instead of the workspace, the pane is not signed in yet.
    Say one line: "Sign in to Deck in the browser pane, I'll wait." Then wait: re-read the page every
    few seconds for up to two minutes until the workspace shows (the deck title, the directory, the
