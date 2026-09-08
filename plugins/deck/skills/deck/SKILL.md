@@ -39,7 +39,10 @@ fill in while you work, so:
    Say one line: "Sign in to Deck in the browser pane, I'll wait." Then wait: re-read the page every
    few seconds for up to two minutes until the workspace shows (the deck title, the directory, the
    composer). Do not write to the deck while the pane shows sign-in, and never type credentials or
-   a code yourself. If two minutes pass, ask the user to tell you when they are in.
+   a code yourself. Signing in lands on Deck's home, not on the deck: once the sign-in form is gone,
+   navigate the same tab to `deckUrl` again. If two minutes pass, ask the user to tell you when they
+   are in. Google sign-in completes inside the pane; a magic link opens in the user's main browser,
+   so say "use Continue with Google in the pane" when they ask which to pick.
 3. Keep the tab open. Writes land there live; you do not need to reload. After `end_work`, take one
    screenshot of the pane so the user sees what landed, and repeat `deckUrl` in the summary.
 
