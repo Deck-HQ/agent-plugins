@@ -1,7 +1,7 @@
 {
   "name": "deck",
-  "version": "0.3.1",
-  "description": "Build and edit Deck presentations: story, artifacts, edits, pictures and brand kits, through six skills on Deck's hosted MCP server.",
+  "version": "0.4.0",
+  "description": "Build and edit Deck presentations: story, artifacts, edits, pictures and brand kits, through six skills on Deck's hosted MCP server. Signs in with your Deck account (OAuth), no key.",
   "author": {
     "name": "Deck",
     "email": "team@usedeck.ai"
@@ -18,14 +18,5 @@
     "html",
     "brand-kit",
     "mcp"
-  ],
-  "userConfig": {
-    "api_key": {
-      "type": "string",
-      "title": "Deck API key",
-      "description": "From Deck: Account, API key. Sent as the Authorization header to Deck's MCP server.",
-      "sensitive": true,
-      "required": true
-    }
-  }
+  ]
 }

@@ -2,10 +2,7 @@
   "mcpServers": {
     "deck": {
       "type": "http",
-      "url": "https://usedeck.ai/api/v1/mcp",
-      "headers": {
-        "Authorization": "Bearer ${user_config.api_key}"
-      }
+      "url": "https://dev.usedeck.ai/api/v1/mcp"
     }
   }
 }
